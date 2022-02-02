@@ -1,6 +1,6 @@
 Source,/home/pozsarzs/Git/W_mm9a/cad_files/mm9a.sch
 Kicad Rev,Eeschema 4.0.5+dfsg1-4
-Generated Date,2022. jan. 16., vasárnap, 21:07:03 CET
+Generated Date,2022. febr.  2., szerda, 12:46:05 CET
 
 Title,MM9A Irrigation controller for MM8D
 Company,Pozsar Zsolt
@@ -8,54 +8,55 @@ Revision,220111
 Date Issue,2022-01-11
 Comment,Draw no.: 59/19/2
 
-Reference,Value,Library,Library Ref
-K2,Electromagnetic_Actor,device,Electromagnetic_Actor
-K2C1,auxcontalt,pzs_others,auxcontalt
-K2C2,auxcontalt,pzs_others,auxcontalt
-K1,Electromagnetic_Actor,device,Electromagnetic_Actor
-K1C1,auxcontalt,pzs_others,auxcontalt
-K1C2,auxcontalt,pzs_others,auxcontalt
-K4,Electromagnetic_Actor,device,Electromagnetic_Actor
-K4C1,auxcontalt,pzs_others,auxcontalt
-K3,Electromagnetic_Actor,device,Electromagnetic_Actor
-K3C1,auxcontalt,pzs_others,auxcontalt
-K3C2,auxcontalt,pzs_others,auxcontalt
-P12,screw_conn,pzs_others,screw_conn
-F1,? mA T,pzs_others,fuse
+Reference,Value,Color,Library,Library Ref
+F1,400mA,pzs_others,fuse
 F2,? mA T,pzs_others,fuse
 F3,? mA T,pzs_others,fuse
-P1,screw_conn,pzs_others,screw_conn
 F4,? mA T,pzs_others,fuse
-Tr1,230/24V 8VA,pzs_others,transformer_1P_1S
-F6,400mA,pzs_others,fuse
-F5,50 mA T,pzs_others,fuse
-P13,screw_conn,pzs_others,screw_conn
-P10,screw_conn,pzs_others,screw_conn
-P11,screw_conn,pzs_others,screw_conn
-P8,screw_conn,pzs_others,screw_conn
-P9,screw_conn,pzs_others,screw_conn
-P20,screw_conn,pzs_others,screw_conn
-P21,screw_conn,pzs_others,screw_conn
-P22,screw_conn,pzs_others,screw_conn
-PS2,pmax,pzs_others,auxcontalt
-K6,Electromagnetic_Actor,device,Electromagnetic_Actor
-K6C1,auxcontalt,pzs_others,auxcontalt
-PS1,pmin,pzs_others,auxcontalt
-K7,Electromagnetic_Actor,device,Electromagnetic_Actor
-K7C1,auxcontalt,pzs_others,auxcontalt
-K5,toff=10s,device,Electromagnetic_Actor
+K1C1,auxcontalt,pzs_others,auxcontalt
+K1,Electromagnetic_Actor,device,Electromagnetic_Actor
+K2C1,auxcontalt,pzs_others,auxcontalt
+K2C2,auxcontalt,pzs_others,auxcontalt
+K2,Electromagnetic_Actor,device,Electromagnetic_Actor
+K3C1,auxcontalt,pzs_others,auxcontalt
+K3C2,auxcontalt,pzs_others,auxcontalt
+K3,Electromagnetic_Actor,device,Electromagnetic_Actor
+K4C1,auxcontalt,pzs_others,auxcontalt
+K4C2,auxcontalt,pzs_others,auxcontalt
+K4,Electromagnetic_Actor,device,Electromagnetic_Actor
 K5C1,auxcontalt,pzs_others,auxcontalt
-P19,screw_conn,pzs_others,screw_conn
-P18,screw_conn,pzs_others,screw_conn
-P17,screw_conn,pzs_others,screw_conn
-K7C2,auxcontalt,pzs_others,auxcontalt
-P16,screw_conn,pzs_others,screw_conn
-P15,screw_conn,pzs_others,screw_conn
-P14,screw_conn,pzs_others,screw_conn
+K5,toff=10s,device,Electromagnetic_Actor
+K6C1,auxcontalt,pzs_others,auxcontalt
 K6C2,auxcontalt,pzs_others,auxcontalt
-P2,screw_conn,pzs_others,screw_conn
-P3,screw_conn,pzs_others,screw_conn
-P4,screw_conn,pzs_others,screw_conn
-P7,screw_conn,pzs_others,screw_conn
-P6,screw_conn,pzs_others,screw_conn
-P5,screw_conn,pzs_others,screw_conn
+K6,Electromagnetic_Actor,device,Electromagnetic_Actor
+K7C1,auxcontalt,pzs_others,auxcontalt
+K7C2,auxcontalt,pzs_others,auxcontalt
+K7,Electromagnetic_Actor,device,Electromagnetic_Actor
+P10,screw_conn,green/yellow,pzs_others,screw_conn
+P11,screw_conn,gray,pzs_others,screw_conn
+P12,screw_conn,blue,pzs_others,screw_conn
+P13,screw_conn,green/yellow,pzs_others,screw_conn
+P14,screw_conn,gray,pzs_others,screw_conn
+P15,screw_conn,blue,pzs_others,screw_conn
+P16,screw_conn,green/yellow,pzs_others,screw_conn
+P17,screw_conn,gray,pzs_others,screw_conn
+P18,screw_conn,gray,pzs_others,screw_conn
+P19,screw_conn,gray,pzs_others,screw_conn
+P1,screw_conn,gray,pzs_others,screw_conn
+P20,screw_conn,gray,pzs_others,screw_conn
+P21,screw_conn,gray,pzs_others,screw_conn
+P22,screw_conn,gray,pzs_others,screw_conn
+P23,screw_conn,gray,pzs_others,screw_conn
+P24,screw_conn,blue,pzs_others,screw_conn
+P25,screw_conn,green/yellow,pzs_others,screw_conn
+P2,screw_conn,gray,pzs_others,screw_conn
+P3,screw_conn,gray,pzs_others,screw_conn
+P4,screw_conn,gray,pzs_others,screw_conn
+P5,screw_conn,gray,pzs_others,screw_conn
+P6,screw_conn,blue,pzs_others,screw_conn
+P7,screw_conn,green/yellow,pzs_others,screw_conn
+P8,screw_conn,gray,pzs_others,screw_conn
+P9,screw_conn,blue,pzs_others,screw_conn
+PS1,pmin,pzs_others,auxcontalt
+PS2,pmax,pzs_others,auxcontalt
+Tr1,230/24V 8VA,pzs_others,transformer_1P_1S
