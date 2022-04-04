@@ -47,10 +47,10 @@ Comment3 ""
 Comment4 "Draw no.: 59/19/2"
 $EndDescr
 $Comp
-L Electromagnetic_Actor K3
+L Electromagnetic_Actor K2
 U 1 1 61DDDF16
 P 5150 2050
-F 0 "K3" H 5200 2250 50  0000 L CNN
+F 0 "K2" H 5200 2250 50  0000 L CNN
 F 1 "Electromagnetic_Actor" H 5200 2000 50  0001 L CNN
 F 2 "" V 5125 2150 50  0000 C CNN
 F 3 "" V 5125 2150 50  0000 C CNN
@@ -58,10 +58,10 @@ F 3 "" V 5125 2150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L auxcontalt K3C1
+L auxcontalt K2C1
 U 1 1 61DDEE16
 P 5550 2100
-F 0 "K3C1" H 5400 2000 50  0000 C CNN
+F 0 "K2C1" H 5400 2000 50  0000 C CNN
 F 1 "auxcontalt" H 5500 1950 50  0001 C CNN
 F 2 "" H 5575 2100 50  0001 C CNN
 F 3 "" H 5575 2100 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "" H 5575 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L auxcontalt K3C2
+L auxcontalt K2C2
 U 1 1 61DDF23C
 P 5950 2100
-F 0 "K3C2" H 5800 2000 50  0000 C CNN
+F 0 "K2C2" H 5800 2000 50  0000 C CNN
 F 1 "auxcontalt" H 5900 1950 50  0001 C CNN
 F 2 "" H 5975 2100 50  0001 C CNN
 F 3 "" H 5975 2100 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "" H 5975 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electromagnetic_Actor K2
+L Electromagnetic_Actor K1
 U 1 1 61DDF801
 P 5150 1450
-F 0 "K2" H 5200 1650 50  0000 L CNN
+F 0 "K1" H 5200 1650 50  0000 L CNN
 F 1 "Electromagnetic_Actor" H 5200 1400 50  0001 L CNN
 F 2 "" V 5125 1550 50  0000 C CNN
 F 3 "" V 5125 1550 50  0000 C CNN
@@ -91,10 +91,10 @@ F 3 "" V 5125 1550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L auxcontalt K2C1
+L auxcontalt K1C1
 U 1 1 61DDF807
 P 5550 1500
-F 0 "K2C1" H 5400 1400 50  0000 C CNN
+F 0 "K1C1" H 5400 1400 50  0000 C CNN
 F 1 "auxcontalt" H 5500 1350 50  0001 C CNN
 F 2 "" H 5575 1500 50  0001 C CNN
 F 3 "" H 5575 1500 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "" H 5575 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L auxcontalt K2C2
+L auxcontalt K1C2
 U 1 1 61DDF80D
 P 5950 1500
-F 0 "K2C2" H 5800 1400 50  0000 C CNN
+F 0 "K1C2" H 5800 1400 50  0000 C CNN
 F 1 "auxcontalt" H 5900 1350 50  0001 C CNN
 F 2 "" H 5975 1500 50  0001 C CNN
 F 3 "" H 5975 1500 50  0001 C CNN
@@ -113,10 +113,10 @@ F 3 "" H 5975 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electromagnetic_Actor K1
+L Electromagnetic_Actor K4
 U 1 1 61DDFB4F
 P 5150 5850
-F 0 "K1" H 5200 6050 50  0000 L CNN
+F 0 "K4" H 5200 6050 50  0000 L CNN
 F 1 "Electromagnetic_Actor" H 5200 5800 50  0001 L CNN
 F 2 "" V 5125 5950 50  0000 C CNN
 F 3 "" V 5125 5950 50  0000 C CNN
@@ -124,10 +124,10 @@ F 3 "" V 5125 5950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L auxcontalt K1C1
+L auxcontalt K4C1
 U 1 1 61DDFB55
 P 5550 5900
-F 0 "K1C1" H 5400 6000 50  0000 C CNN
+F 0 "K4C1" H 5400 6000 50  0000 C CNN
 F 1 "auxcontalt" H 5500 5750 50  0001 C CNN
 F 2 "" H 5575 5900 50  0001 C CNN
 F 3 "" H 5575 5900 50  0001 C CNN
@@ -135,10 +135,10 @@ F 3 "" H 5575 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electromagnetic_Actor K4
+L Electromagnetic_Actor K3
 U 1 1 61DDFB62
 P 5150 2650
-F 0 "K4" H 5200 2850 50  0000 L CNN
+F 0 "K3" H 5200 2850 50  0000 L CNN
 F 1 "Electromagnetic_Actor" H 5200 2600 50  0001 L CNN
 F 2 "" V 5125 2750 50  0000 C CNN
 F 3 "" V 5125 2750 50  0000 C CNN
@@ -146,10 +146,10 @@ F 3 "" V 5125 2750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L auxcontalt K4C1
+L auxcontalt K3C1
 U 1 1 61DDFB68
 P 5550 2700
-F 0 "K4C1" H 5400 2600 50  0000 C CNN
+F 0 "K3C1" H 5400 2600 50  0000 C CNN
 F 1 "auxcontalt" H 5500 2550 50  0001 C CNN
 F 2 "" H 5575 2700 50  0001 C CNN
 F 3 "" H 5575 2700 50  0001 C CNN
@@ -157,10 +157,10 @@ F 3 "" H 5575 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L auxcontalt K4C2
+L auxcontalt K3C2
 U 1 1 61DDFB6E
 P 5950 2700
-F 0 "K4C2" H 5800 2600 50  0000 C CNN
+F 0 "K3C2" H 5800 2600 50  0000 C CNN
 F 1 "auxcontalt" H 5900 2550 50  0001 C CNN
 F 2 "" H 5975 2700 50  0001 C CNN
 F 3 "" H 5975 2700 50  0001 C CNN
@@ -168,36 +168,36 @@ F 3 "" H 5975 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fuse F2
+L fuse F1
 U 1 1 61DE0989
-P 7825 1750
-F 0 "F2" V 7905 1750 50  0000 C CNN
-F 1 "? mA T" V 7675 1750 50  0001 C CNN
-F 2 "" V 7755 1750 50  0001 C CNN
-F 3 "" H 7825 1750 50  0001 C CNN
-	1    7825 1750
+P 7150 1750
+F 0 "F1" V 7250 1750 50  0000 C CNN
+F 1 "500 mA T" V 7050 1750 50  0000 C CNN
+F 2 "" V 7080 1750 50  0001 C CNN
+F 3 "" H 7150 1750 50  0001 C CNN
+	1    7150 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fuse F2
+U 1 1 61DE0A43
+P 7150 2350
+F 0 "F2" V 7250 2350 50  0000 C CNN
+F 1 "500 mA T" V 7050 2350 50  0000 C CNN
+F 2 "" V 7080 2350 50  0001 C CNN
+F 3 "" H 7150 2350 50  0001 C CNN
+	1    7150 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L fuse F3
-U 1 1 61DE0A43
-P 7825 2350
-F 0 "F3" V 7905 2350 50  0000 C CNN
-F 1 "? mA T" V 7675 2350 50  0001 C CNN
-F 2 "" V 7755 2350 50  0001 C CNN
-F 3 "" H 7825 2350 50  0001 C CNN
-	1    7825 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L fuse F4
 U 1 1 61DE0AB5
-P 7825 2950
-F 0 "F4" V 7905 2950 50  0000 C CNN
-F 1 "? mA T" V 7675 2950 50  0001 C CNN
-F 2 "" V 7755 2950 50  0001 C CNN
-F 3 "" H 7825 2950 50  0001 C CNN
-	1    7825 2950
+P 7150 2950
+F 0 "F3" V 7250 2950 50  0000 C CNN
+F 1 "500 mA T" V 7050 2950 50  0000 C CNN
+F 2 "" V 7080 2950 50  0001 C CNN
+F 3 "" H 7150 2950 50  0001 C CNN
+	1    7150 2950
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 6050 1650
@@ -220,62 +220,39 @@ NoConn ~ 5650 6050
 NoConn ~ 5650 2250
 NoConn ~ 5650 1650
 $Comp
-L transformer_1P_1S Tr1
-U 1 1 61DE7C07
-P 3950 3550
-F 0 "Tr1" H 3950 3850 50  0000 C CNN
-F 1 "230/24V 8VA" H 3950 3250 50  0000 C CNN
-F 2 "" H 3950 3550 50  0001 C CNN
-F 3 "" H 3950 3550 50  0001 C CNN
-	1    3950 3550
-	0    -1   1    0   
-$EndComp
-$Comp
-L fuse F1
+L fuse F5
 U 1 1 61DE8275
-P 3750 2700
-F 0 "F1" V 3850 2700 50  0000 C CNN
-F 1 "400mA" V 3650 2700 50  0000 C CNN
-F 2 "" V 3680 2700 50  0001 C CNN
-F 3 "" H 3750 2700 50  0001 C CNN
-	1    3750 2700
+P 3750 2425
+F 0 "F5" V 3850 2425 50  0000 C CNN
+F 1 "500 mA" V 3650 2425 50  0000 C CNN
+F 2 "" V 3680 2425 50  0001 C CNN
+F 3 "" H 3750 2425 50  0001 C CNN
+	1    3750 2425
 	-1   0    0    -1  
 $EndComp
-Text Notes 9300 2125 0    50   ~ 0
-Electromagnetic\n valve out #1\n\n   230V AC
-Text Notes 9325 6050 0    50   ~ 0
-Water pump out\n\n   230V AC
-Text Notes 9150 2990 0    50   ~ 0
-L
-Text Notes 9150 3190 0    50   ~ 0
-N
-Text Notes 9150 2390 0    50   ~ 0
-L
-Text Notes 9150 2590 0    50   ~ 0
-N
+Text Notes 9150 5775 0    50   ~ 0
+L 230V AC - Water pump output
 $Comp
-L screw_conn P8
+L screw_conn P9
 U 1 1 61DF8ED3
-P 8850 1750
-F 0 "P8" H 8930 1750 50  0000 L CNN
-F 1 "screw_conn" H 8850 1805 30  0001 C CNN
-F 2 "" H 8850 1750 60  0000 C CNN
-F 3 "" H 8850 1750 60  0000 C CNN
-F 4 "gray" H 8850 1750 60  0001 C CNN "Color"
-	1    8850 1750
+P 8850 2150
+F 0 "P9" H 8930 2150 50  0000 L CNN
+F 1 "screw_conn" H 8850 2205 30  0001 C CNN
+F 2 "" H 8850 2150 60  0000 C CNN
+F 3 "" H 8850 2150 60  0000 C CNN
+F 4 "gray" H 8850 2150 60  0001 C CNN "Color"
+	1    8850 2150
 	1    0    0    -1  
 $EndComp
-Text Notes 9150 1790 0    50   ~ 0
-L
 Text Notes 9150 1990 0    50   ~ 0
-N
-Text Notes 9150 5800 0    50   ~ 0
-L
+-24 V
+Text Notes 9150 2190 0    50   ~ 0
++24V - Valve #1 output
 $Comp
-L screw_conn P24
+L screw_conn P16
 U 1 1 61DF9912
 P 8850 5950
-F 0 "P24" H 8930 5950 50  0000 L CNN
+F 0 "P16" H 8930 5950 50  0000 L CNN
 F 1 "screw_conn" H 8850 6005 30  0001 C CNN
 F 2 "" H 8850 5950 60  0000 C CNN
 F 3 "" H 8850 5950 60  0000 C CNN
@@ -286,10 +263,10 @@ $EndComp
 Text Notes 9150 5990 0    50   ~ 0
 N
 $Comp
-L screw_conn P25
+L screw_conn P17
 U 1 1 61DF9A0D
 P 8850 6150
-F 0 "P25" H 8930 6150 50  0000 L CNN
+F 0 "P17" H 8930 6150 50  0000 L CNN
 F 1 "screw_conn" H 8850 6205 30  0001 C CNN
 F 2 "" H 8850 6150 60  0000 C CNN
 F 3 "" H 8850 6150 60  0000 C CNN
@@ -311,10 +288,10 @@ F 3 "" H 5825 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electromagnetic_Actor K7
+L Electromagnetic_Actor K5
 U 1 1 61E3356A
 P 6300 3600
-F 0 "K7" H 6450 3650 50  0000 L CNN
+F 0 "K5" H 6375 3525 50  0000 L CNN
 F 1 "Electromagnetic_Actor" H 6350 3550 50  0001 L CNN
 F 2 "" V 6275 3700 50  0000 C CNN
 F 3 "" V 6275 3700 50  0000 C CNN
@@ -322,10 +299,10 @@ F 3 "" V 6275 3700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L auxcontalt K7C1
+L auxcontalt K5C1
 U 1 1 61E338BD
 P 6600 3700
-F 0 "K7C1" H 6450 3800 50  0000 C CNN
+F 0 "K5C1" H 6450 3800 50  0000 C CNN
 F 1 "auxcontalt" H 6550 3550 50  0001 C CNN
 F 2 "" H 6625 3700 50  0001 C CNN
 F 3 "" H 6625 3700 50  0001 C CNN
@@ -335,12 +312,12 @@ $EndComp
 $Comp
 L auxcontalt PS1
 U 1 1 61E350C5
-P 5800 4250
-F 0 "PS1" H 5400 4350 50  0000 C CNN
-F 1 "pmin" H 5400 4200 50  0000 C CNN
-F 2 "" H 5825 4250 50  0001 C CNN
-F 3 "" H 5825 4250 50  0001 C CNN
-	1    5800 4250
+P 5600 4250
+F 0 "PS1" H 5200 4350 50  0000 C CNN
+F 1 "pmin" H 5200 4200 50  0000 C CNN
+F 2 "" H 5625 4250 50  0001 C CNN
+F 3 "" H 5625 4250 50  0001 C CNN
+	1    5600 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -366,25 +343,25 @@ F 3 "" H 6625 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electromagnetic_Actor K5
+L Electromagnetic_Actor K7
 U 1 1 61E37562
-P 5850 4800
-F 0 "K5" V 5750 4650 50  0000 L CNN
-F 1 "toff=10s" V 5750 4950 50  0000 L CNN
-F 2 "" V 5825 4900 50  0000 C CNN
-F 3 "" V 5825 4900 50  0000 C CNN
-	1    5850 4800
+P 5650 4800
+F 0 "K7" V 5550 4650 50  0000 L CNN
+F 1 "toff=5s" V 5550 4950 50  0000 L CNN
+F 2 "" V 5625 4900 50  0000 C CNN
+F 3 "" V 5625 4900 50  0000 C CNN
+	1    5650 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L auxcontalt K5C1
+L auxcontalt K7C1
 U 1 1 61E37BED
-P 5800 4550
-F 0 "K5C1" H 5700 4650 50  0000 C CNN
-F 1 "auxcontalt" H 5750 4400 50  0001 C CNN
-F 2 "" H 5825 4550 50  0001 C CNN
-F 3 "" H 5825 4550 50  0001 C CNN
-	1    5800 4550
+P 5600 4550
+F 0 "K7C1" H 5500 4650 50  0000 C CNN
+F 1 "auxcontalt" H 5550 4400 50  0001 C CNN
+F 2 "" H 5625 4550 50  0001 C CNN
+F 3 "" H 5625 4550 50  0001 C CNN
+	1    5600 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -398,19 +375,11 @@ F 3 "" H 6925 4600 50  0001 C CNN
 	1    6900 4600
 	0    1    1    0   
 $EndComp
-Text Notes 9150 4140 0    50   ~ 0
-NO
-Text Notes 9150 3940 0    50   ~ 0
-NC
-Text Notes 9150 3740 0    50   ~ 0
-C
-Text Notes 9350 3975 0    50   ~ 0
-Pressure error:\n  P > Pmax
 $Comp
-L auxcontalt K7C2
+L auxcontalt K5C2
 U 1 1 61E40A3C
 P 6900 3700
-F 0 "K7C2" H 6900 3900 50  0000 C CNN
+F 0 "K5C2" H 6900 3900 50  0000 C CNN
 F 1 "auxcontalt" H 6850 3550 50  0001 C CNN
 F 2 "" H 6925 3700 50  0001 C CNN
 F 3 "" H 6925 3700 50  0001 C CNN
@@ -418,18 +387,14 @@ F 3 "" H 6925 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 5950 3250
-NoConn ~ 5950 4150
-NoConn ~ 5950 4450
+NoConn ~ 5750 4150
+NoConn ~ 5750 4450
 NoConn ~ 6500 3850
 NoConn ~ 6700 4750
-Text Notes 9150 5040 0    50   ~ 0
-NO
-Text Notes 9150 4840 0    50   ~ 0
-NC
-Text Notes 9150 4640 0    50   ~ 0
-C
-Text Notes 9350 4875 0    50   ~ 0
-Pressure error:\n  P < Pmin
+Text Notes 9150 4490 0    50   ~ 0
+<Pmin
+Text Notes 9150 4290 0    50   ~ 0
+>Pmax
 Text Notes 2300 1330 2    50   ~ 0
 Control input #1
 $Comp
@@ -477,7 +442,7 @@ N
 Text Notes 2300 5830 2    50   ~ 0
 PE
 Text Notes 2050 5650 2    50   ~ 0
-Main voltage input\n230V 50-60Hz 
+Main voltage input\n230 V AC
 Wire Notes Line
 	6000 2100 5250 2100
 Wire Notes Line
@@ -489,36 +454,32 @@ Wire Notes Line
 Wire Wire Line
 	5850 1650 5850 1750
 Wire Wire Line
-	5850 1750 7675 1750
+	5850 1750 7000 1750
 Wire Wire Line
-	7675 2350 5850 2350
+	7000 2350 5850 2350
 Wire Wire Line
 	5850 2350 5850 2250
 Wire Wire Line
 	5850 2850 5850 2950
 Wire Wire Line
-	5850 2950 7675 2950
+	5850 2950 7000 2950
 Wire Wire Line
 	5950 2500 5950 2450
 Wire Wire Line
-	5950 2450 6150 2450
+	6150 2450 5950 2450
 Wire Wire Line
 	6150 1250 5950 1250
 Wire Wire Line
 	5950 900  5950 1300
 Wire Wire Line
-	7975 2950 8700 2950
-Wire Wire Line
-	7975 2350 8700 2350
-Wire Wire Line
-	7975 1750 8700 1750
+	7300 2350 8700 2350
 Wire Wire Line
 	5950 1900 5950 1850
 Wire Wire Line
 	5950 1850 6150 1850
 Connection ~ 6150 1850
 Wire Wire Line
-	6150 2450 6150 1250
+	6150 1250 6150 2450
 Wire Wire Line
 	5550 1300 5550 1250
 Wire Wire Line
@@ -551,9 +512,9 @@ Wire Wire Line
 	5450 2300 5350 2300
 Connection ~ 5350 2300
 Wire Wire Line
-	5150 1650 5150 1700
+	5150 1700 5150 1650
 Wire Wire Line
-	5150 1700 4750 1700
+	4750 1700 5150 1700
 Wire Wire Line
 	4750 6100 5150 6100
 Wire Wire Line
@@ -571,9 +532,9 @@ Wire Wire Line
 Wire Wire Line
 	5150 1300 5150 1350
 Wire Wire Line
-	5150 1950 5150 1900
+	5150 1900 5150 1950
 Wire Wire Line
-	5150 1900 4550 1900
+	4550 1900 5150 1900
 Wire Wire Line
 	4550 1900 4550 1500
 Wire Wire Line
@@ -612,17 +573,15 @@ Wire Wire Line
 	4350 5800 2750 5800
 Connection ~ 3750 5400
 Wire Wire Line
-	4150 5600 4150 3900
+	4150 5600 4150 4050
 Connection ~ 4150 5600
 Wire Wire Line
-	3750 2850 3750 3150
+	3750 2575 3750 3150
 Wire Wire Line
 	3750 1100 5750 1100
 Wire Wire Line
-	3750 1100 3750 2550
+	3750 1100 3750 2275
 Connection ~ 5750 1250
-Wire Wire Line
-	3750 3900 3750 5400
 Wire Wire Line
 	2750 1900 3750 1900
 Wire Wire Line
@@ -632,7 +591,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3450 6300 3500
 Wire Wire Line
-	5950 4350 6300 4350
+	5750 4350 6300 4350
 Wire Wire Line
 	6300 4350 6300 4450
 Wire Wire Line
@@ -640,37 +599,37 @@ Wire Wire Line
 Wire Wire Line
 	5350 3150 6600 3150
 Wire Wire Line
-	5600 4250 5550 4250
+	5400 4250 5350 4250
 Wire Wire Line
-	5550 4050 5550 4800
+	5350 4050 5350 4800
 Wire Wire Line
-	5550 4550 5600 4550
-Connection ~ 5550 4250
+	5350 4550 5400 4550
+Connection ~ 5350 4250
 Wire Wire Line
-	5950 4650 6050 4650
+	5750 4650 5850 4650
 Wire Wire Line
-	6050 4650 6050 4350
-Connection ~ 6050 4350
+	5850 4650 5850 4350
+Connection ~ 5850 4350
 Wire Wire Line
-	5550 4800 5650 4800
-Connection ~ 5550 4550
+	5350 4800 5450 4800
+Connection ~ 5350 4550
 Connection ~ 5350 3150
 Wire Wire Line
-	5150 5750 5150 5200
+	5150 5200 5150 5750
 Wire Wire Line
 	5150 5200 6500 5200
 Wire Wire Line
 	4750 5000 6300 5000
 Wire Wire Line
-	6300 5000 6300 4750
+	6300 4750 6300 5000
 Connection ~ 4750 5000
 Wire Wire Line
-	5950 4800 6300 4800
+	5750 4800 6300 4800
 Connection ~ 6300 4800
 Wire Wire Line
-	6300 3800 6300 3850
+	6300 3850 6300 3800
 Wire Wire Line
-	6300 3850 4750 3850
+	4750 3850 6300 3850
 Connection ~ 4750 3850
 Wire Wire Line
 	6600 3150 6600 3500
@@ -680,45 +639,27 @@ Wire Wire Line
 	6600 4400 6600 4050
 Connection ~ 6600 4050
 Wire Wire Line
-	5550 4050 6700 4050
+	5350 4050 6700 4050
 Wire Wire Line
 	6500 5200 6500 4750
 Wire Notes Line
-	5800 4500 5800 4700
-Wire Wire Line
-	7250 4600 8700 4600
-Wire Wire Line
-	7250 4350 7250 4600
+	5600 4500 5600 4700
 Wire Wire Line
 	6900 4350 7250 4350
 Wire Wire Line
 	6900 4400 6900 4350
 Wire Wire Line
 	6800 5000 6800 4750
-Wire Wire Line
-	8700 5000 6800 5000
-Wire Wire Line
-	7000 4800 8700 4800
-Wire Wire Line
-	7000 4750 7000 4800
 Wire Notes Line
 	6400 4600 6950 4600
 Wire Wire Line
-	7250 3700 8700 3700
+	7250 3450 7250 5200
 Wire Wire Line
-	7250 3450 7250 3700
+	7250 3450 6900 3450
 Wire Wire Line
-	6900 3450 7250 3450
+	6900 3450 6900 3500
 Wire Wire Line
-	6900 3500 6900 3450
-Wire Wire Line
-	6800 4100 6800 3850
-Wire Wire Line
-	8700 4100 6800 4100
-Wire Wire Line
-	7000 3900 8700 3900
-Wire Wire Line
-	7000 3850 7000 3900
+	7000 3850 7000 4050
 Wire Notes Line
 	6400 3700 6950 3700
 Connection ~ 3750 1900
@@ -727,80 +668,20 @@ Wire Wire Line
 Wire Wire Line
 	4750 2300 5150 2300
 Wire Wire Line
-	4750 1700 4750 6100
-Wire Wire Line
-	3550 5400 3550 900 
+	4750 700  4750 6100
 Wire Wire Line
 	3550 900  5950 900 
 Connection ~ 5950 1250
-Connection ~ 3550 5400
 Wire Wire Line
 	4550 5600 4550 6350
 Wire Wire Line
 	2750 5600 4550 5600
 Wire Wire Line
 	5450 6150 5450 6050
-Wire Wire Line
-	8700 1950 8300 1950
-Wire Wire Line
-	8300 1950 8300 5950
-Connection ~ 8300 5950
-Wire Wire Line
-	8700 2550 8300 2550
-Connection ~ 8300 2550
-Wire Wire Line
-	8700 3150 8300 3150
-Connection ~ 8300 3150
-Text Notes 9300 2725 0    50   ~ 0
-Electromagnetic\n valve out #2\n\n   230V AC
-Text Notes 9300 3325 0    50   ~ 0
-Electromagnetic\n valve out #3\n\n   230V AC
 Text Notes 2300 1525 2    50   ~ 0
 Control input #2
 Text Notes 2300 1725 2    50   ~ 0
 Control input #3
-$Comp
-L screw_conn P10
-U 1 1 61FAD8B0
-P 8850 2150
-F 0 "P10" H 8930 2150 50  0000 L CNN
-F 1 "screw_conn" H 8850 2205 30  0001 C CNN
-F 2 "" H 8850 2150 60  0000 C CNN
-F 3 "" H 8850 2150 60  0000 C CNN
-F 4 "green/yellow" H 8850 2150 60  0001 C CNN "Color"
-	1    8850 2150
-	1    0    0    -1  
-$EndComp
-Text Notes 9150 2190 0    50   ~ 0
-PE
-$Comp
-L screw_conn P16
-U 1 1 61FAD9C2
-P 8850 3350
-F 0 "P16" H 8930 3350 50  0000 L CNN
-F 1 "screw_conn" H 8850 3405 30  0001 C CNN
-F 2 "" H 8850 3350 60  0000 C CNN
-F 3 "" H 8850 3350 60  0000 C CNN
-F 4 "green/yellow" H 8850 3350 60  0001 C CNN "Color"
-	1    8850 3350
-	1    0    0    -1  
-$EndComp
-Text Notes 9150 3390 0    50   ~ 0
-PE
-$Comp
-L screw_conn P13
-U 1 1 61FADC20
-P 8850 2750
-F 0 "P13" H 8930 2750 50  0000 L CNN
-F 1 "screw_conn" H 8850 2805 30  0001 C CNN
-F 2 "" H 8850 2750 60  0000 C CNN
-F 3 "" H 8850 2750 60  0000 C CNN
-F 4 "green/yellow" H 8850 2750 60  0001 C CNN "Color"
-	1    8850 2750
-	1    0    0    -1  
-$EndComp
-Text Notes 9150 2790 0    50   ~ 0
-PE
 $Comp
 L screw_conn P2
 U 1 1 61FAE763
@@ -838,10 +719,10 @@ F 4 "gray" H 2600 1900 60  0001 C CNN "Color"
 	-1   0    0    1   
 $EndComp
 $Comp
-L screw_conn P11
+L screw_conn P10
 U 1 1 61FAEF06
 P 8850 2350
-F 0 "P11" H 8930 2350 50  0000 L CNN
+F 0 "P10" H 8930 2350 50  0000 L CNN
 F 1 "screw_conn" H 8850 2405 30  0001 C CNN
 F 2 "" H 8850 2350 60  0000 C CNN
 F 3 "" H 8850 2350 60  0000 C CNN
@@ -850,94 +731,58 @@ F 4 "gray" H 8850 2350 60  0001 C CNN "Color"
 	1    0    0    -1  
 $EndComp
 $Comp
-L screw_conn P14
+L screw_conn P11
 U 1 1 61FAEFBC
-P 8850 2950
-F 0 "P14" H 8930 2950 50  0000 L CNN
-F 1 "screw_conn" H 8850 3005 30  0001 C CNN
-F 2 "" H 8850 2950 60  0000 C CNN
-F 3 "" H 8850 2950 60  0000 C CNN
-F 4 "gray" H 8850 2950 60  0001 C CNN "Color"
-	1    8850 2950
+P 8850 2550
+F 0 "P11" H 8930 2550 50  0000 L CNN
+F 1 "screw_conn" H 8850 2605 30  0001 C CNN
+F 2 "" H 8850 2550 60  0000 C CNN
+F 3 "" H 8850 2550 60  0000 C CNN
+F 4 "gray" H 8850 2550 60  0001 C CNN "Color"
+	1    8850 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L screw_conn P17
+L screw_conn P12
 U 1 1 61FAF07B
-P 8850 3700
-F 0 "P17" H 8930 3700 50  0000 L CNN
-F 1 "screw_conn" H 8850 3755 30  0001 C CNN
-F 2 "" H 8850 3700 60  0000 C CNN
-F 3 "" H 8850 3700 60  0000 C CNN
-F 4 "gray" H 8850 3700 60  0001 C CNN "Color"
-	1    8850 3700
+P 8850 4250
+F 0 "P12" H 8930 4250 50  0000 L CNN
+F 1 "screw_conn" H 8850 4305 30  0001 C CNN
+F 2 "" H 8850 4250 60  0000 C CNN
+F 3 "" H 8850 4250 60  0000 C CNN
+F 4 "gray" H 8850 4250 60  0001 C CNN "Color"
+	1    8850 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L screw_conn P18
+L screw_conn P13
 U 1 1 61FAF141
-P 8850 3900
-F 0 "P18" H 8930 3900 50  0000 L CNN
-F 1 "screw_conn" H 8850 3955 30  0001 C CNN
-F 2 "" H 8850 3900 60  0000 C CNN
-F 3 "" H 8850 3900 60  0000 C CNN
-F 4 "gray" H 8850 3900 60  0001 C CNN "Color"
-	1    8850 3900
+P 8850 4450
+F 0 "P13" H 8930 4450 50  0000 L CNN
+F 1 "screw_conn" H 8850 4505 30  0001 C CNN
+F 2 "" H 8850 4450 60  0000 C CNN
+F 3 "" H 8850 4450 60  0000 C CNN
+F 4 "gray" H 8850 4450 60  0001 C CNN "Color"
+	1    8850 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L screw_conn P19
-U 1 1 61FAF1EA
-P 8850 4100
-F 0 "P19" H 8930 4100 50  0000 L CNN
-F 1 "screw_conn" H 8850 4155 30  0001 C CNN
-F 2 "" H 8850 4100 60  0000 C CNN
-F 3 "" H 8850 4100 60  0000 C CNN
-F 4 "gray" H 8850 4100 60  0001 C CNN "Color"
-	1    8850 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L screw_conn P20
+L screw_conn P14
 U 1 1 61FAF296
-P 8850 4600
-F 0 "P20" H 8930 4600 50  0000 L CNN
-F 1 "screw_conn" H 8850 4655 30  0001 C CNN
-F 2 "" H 8850 4600 60  0000 C CNN
-F 3 "" H 8850 4600 60  0000 C CNN
-F 4 "gray" H 8850 4600 60  0001 C CNN "Color"
-	1    8850 4600
+P 8850 4650
+F 0 "P14" H 8930 4650 50  0000 L CNN
+F 1 "screw_conn" H 8850 4705 30  0001 C CNN
+F 2 "" H 8850 4650 60  0000 C CNN
+F 3 "" H 8850 4650 60  0000 C CNN
+F 4 "gray" H 8850 4650 60  0001 C CNN "Color"
+	1    8850 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L screw_conn P21
-U 1 1 61FAF35B
-P 8850 4800
-F 0 "P21" H 8930 4800 50  0000 L CNN
-F 1 "screw_conn" H 8850 4855 30  0001 C CNN
-F 2 "" H 8850 4800 60  0000 C CNN
-F 3 "" H 8850 4800 60  0000 C CNN
-F 4 "gray" H 8850 4800 60  0001 C CNN "Color"
-	1    8850 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L screw_conn P22
-U 1 1 61FAF4E5
-P 8850 5000
-F 0 "P22" H 8930 5000 50  0000 L CNN
-F 1 "screw_conn" H 8850 5055 30  0001 C CNN
-F 2 "" H 8850 5000 60  0000 C CNN
-F 3 "" H 8850 5000 60  0000 C CNN
-F 4 "gray" H 8850 5000 60  0001 C CNN "Color"
-	1    8850 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L screw_conn P23
+L screw_conn P15
 U 1 1 61FAF604
 P 8850 5750
-F 0 "P23" H 8930 5750 50  0000 L CNN
+F 0 "P15" H 8930 5750 50  0000 L CNN
 F 1 "screw_conn" H 8850 5805 30  0001 C CNN
 F 2 "" H 8850 5750 60  0000 C CNN
 F 3 "" H 8850 5750 60  0000 C CNN
@@ -946,34 +791,10 @@ F 4 "gray" H 8850 5750 60  0001 C CNN "Color"
 	1    0    0    -1  
 $EndComp
 $Comp
-L screw_conn P15
+L screw_conn P8
 U 1 1 61FAFA88
-P 8850 3150
-F 0 "P15" H 8930 3150 50  0000 L CNN
-F 1 "screw_conn" H 8850 3205 30  0001 C CNN
-F 2 "" H 8850 3150 60  0000 C CNN
-F 3 "" H 8850 3150 60  0000 C CNN
-F 4 "blue" H 8850 3150 60  0001 C CNN "Color"
-	1    8850 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L screw_conn P12
-U 1 1 61FAFBA0
-P 8850 2550
-F 0 "P12" H 8930 2550 50  0000 L CNN
-F 1 "screw_conn" H 8850 2605 30  0001 C CNN
-F 2 "" H 8850 2550 60  0000 C CNN
-F 3 "" H 8850 2550 60  0000 C CNN
-F 4 "blue" H 8850 2550 60  0001 C CNN "Color"
-	1    8850 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L screw_conn P9
-U 1 1 61FAFC6D
 P 8850 1950
-F 0 "P9" H 8930 1950 50  0000 L CNN
+F 0 "P8" H 8930 1950 50  0000 L CNN
 F 1 "screw_conn" H 8850 2005 30  0001 C CNN
 F 2 "" H 8850 1950 60  0000 C CNN
 F 3 "" H 8850 1950 60  0000 C CNN
@@ -982,14 +803,239 @@ F 4 "blue" H 8850 1950 60  0001 C CNN "Color"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2150 8500 2150
+	3550 900  3550 2950
 Wire Wire Line
-	8500 2150 8500 6150
+	3550 2950 3750 2950
+Connection ~ 3750 2950
+$Comp
+L fuse F4
+U 1 1 624B081E
+P 3750 4600
+F 0 "F4" V 3850 4600 50  0000 C CNN
+F 1 "500 mA T" V 3650 4600 50  0000 C CNN
+F 2 "" V 3680 4600 50  0001 C CNN
+F 3 "" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	8500 3350 8700 3350
+	3750 4050 3750 4450
 Wire Wire Line
-	8700 2750 8500 2750
-Connection ~ 8500 2750
-Connection ~ 8500 6150
-Connection ~ 8500 3350
+	3750 4750 3750 5400
+Wire Wire Line
+	4750 700  8400 700 
+Connection ~ 4750 1700
+Wire Wire Line
+	7300 2950 8200 2950
+Wire Wire Line
+	8200 2950 8200 2550
+Wire Wire Line
+	8200 2550 8700 2550
+Wire Wire Line
+	8700 2150 8200 2150
+Wire Wire Line
+	8200 2150 8200 1750
+Wire Wire Line
+	8200 1750 7300 1750
+Wire Wire Line
+	8700 1950 8400 1950
+Wire Wire Line
+	8400 1950 8400 700 
+NoConn ~ 7000 4750
+NoConn ~ 6800 3850
+Wire Wire Line
+	7000 4050 8200 4050
+Wire Wire Line
+	8200 4050 8200 4250
+Wire Wire Line
+	8200 4250 8700 4250
+Wire Wire Line
+	6800 5000 8200 5000
+Wire Wire Line
+	8200 5000 8200 4450
+Wire Wire Line
+	8200 4450 8700 4450
+Wire Wire Line
+	7250 5200 8400 5200
+Wire Wire Line
+	8400 5200 8400 4650
+Wire Wire Line
+	8400 4650 8700 4650
+Connection ~ 7250 4350
+Text Notes 9150 4675 0    50   ~ 0
+Common
+$Comp
+L D D1
+U 1 1 624B7E26
+P 4925 1500
+F 0 "D1" V 4625 1500 50  0000 C CNN
+F 1 "1N4001" H 4925 1400 50  0000 C CNN
+F 2 "" H 4925 1500 50  0000 C CNN
+F 3 "" H 4925 1500 50  0000 C CNN
+	1    4925 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L D D2
+U 1 1 624B8254
+P 4925 2100
+F 0 "D2" V 4625 2100 50  0000 C CNN
+F 1 "1N4001" H 4925 2000 50  0000 C CNN
+F 2 "" H 4925 2100 50  0000 C CNN
+F 3 "" H 4925 2100 50  0000 C CNN
+	1    4925 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L D D3
+U 1 1 624B8436
+P 4925 2700
+F 0 "D3" V 4625 2700 50  0000 C CNN
+F 1 "1N4001" H 4925 2600 50  0000 C CNN
+F 2 "" H 4925 2700 50  0000 C CNN
+F 3 "" H 4925 2700 50  0000 C CNN
+	1    4925 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L D D5
+U 1 1 624B85F0
+P 6050 3650
+F 0 "D5" V 5775 3650 50  0000 C CNN
+F 1 "1N4001" H 6050 3550 50  0000 C CNN
+F 2 "" H 6050 3650 50  0000 C CNN
+F 3 "" H 6050 3650 50  0000 C CNN
+	1    6050 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L D D6
+U 1 1 624B8841
+P 6075 4575
+F 0 "D6" V 5750 4575 50  0000 C CNN
+F 1 "1N4001" H 6075 4475 50  0000 C CNN
+F 2 "" H 6075 4575 50  0000 C CNN
+F 3 "" H 6075 4575 50  0000 C CNN
+	1    6075 4575
+	0    1    1    0   
+$EndComp
+$Comp
+L D D4
+U 1 1 624B8A29
+P 4950 5725
+F 0 "D4" H 4950 5825 50  0000 C CNN
+F 1 "1N4001" H 4950 5225 50  0000 C CNN
+F 2 "" H 4950 5725 50  0000 C CNN
+F 3 "" H 4950 5725 50  0000 C CNN
+	1    4950 5725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 1350 4925 1300
+Connection ~ 4925 1300
+Wire Wire Line
+	4925 1650 4925 1700
+Connection ~ 4925 1700
+Wire Wire Line
+	4925 1950 4925 1900
+Connection ~ 4925 1900
+Wire Wire Line
+	4925 2250 4925 2300
+Connection ~ 4925 2300
+Wire Wire Line
+	4925 2550 4925 2500
+Connection ~ 4925 2500
+Wire Wire Line
+	4925 2850 4925 2900
+Connection ~ 4925 2900
+Wire Wire Line
+	6050 3800 6050 3850
+Connection ~ 6050 3850
+Wire Wire Line
+	6050 3500 6050 3450
+Connection ~ 6050 3450
+Wire Wire Line
+	6075 4725 6075 4800
+Connection ~ 6075 4800
+Wire Wire Line
+	6075 4425 6075 4350
+Connection ~ 6075 4350
+Wire Wire Line
+	5100 5725 5150 5725
+Connection ~ 5150 5725
+Wire Wire Line
+	4800 5725 4750 5725
+Connection ~ 4750 5725
+Text Notes 9150 2375 0    50   ~ 0
++24V - Valve #2 output
+Text Notes 9150 2575 0    50   ~ 0
++24V - Valve #3 output
+$Comp
+L screw_conn U1-3
+U 1 1 624BCA7F
+P 3750 3300
+F 0 "U1-3" H 3475 3225 50  0000 L CNN
+F 1 "screw_conn" H 3750 3355 30  0001 C CNN
+F 2 "" H 3750 3300 60  0000 C CNN
+F 3 "" H 3750 3300 60  0000 C CNN
+F 4 "gray" H 3750 3300 60  0001 C CNN "Color"
+	1    3750 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L screw_conn U1-4
+U 1 1 624BCD1D
+P 4150 3300
+F 0 "U1-4" H 3900 3375 50  0000 L CNN
+F 1 "screw_conn" H 4150 3355 30  0001 C CNN
+F 2 "" H 4150 3300 60  0000 C CNN
+F 3 "" H 4150 3300 60  0000 C CNN
+F 4 "gray" H 4150 3300 60  0001 C CNN "Color"
+	1    4150 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L screw_conn U1-1
+U 1 1 624BCDE4
+P 3750 3900
+F 0 "U1-1" H 3525 3975 50  0000 L CNN
+F 1 "screw_conn" H 3750 3955 30  0001 C CNN
+F 2 "" H 3750 3900 60  0000 C CNN
+F 3 "" H 3750 3900 60  0000 C CNN
+F 4 "gray" H 3750 3900 60  0001 C CNN "Color"
+	1    3750 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L screw_conn U1-2
+U 1 1 624BD08A
+P 4150 3900
+F 0 "U1-2" H 3900 3825 50  0000 L CNN
+F 1 "screw_conn" H 4150 3955 30  0001 C CNN
+F 2 "" H 4150 3900 60  0000 C CNN
+F 3 "" H 4150 3900 60  0000 C CNN
+F 4 "gray" H 4150 3900 60  0001 C CNN "Color"
+	1    4150 3900
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	3700 3300 3600 3300
+Wire Notes Line
+	3600 3300 3600 3900
+Wire Notes Line
+	3600 3900 3700 3900
+Wire Notes Line
+	4200 3900 4300 3900
+Wire Notes Line
+	4300 3900 4300 3300
+Wire Notes Line
+	4300 3300 4200 3300
+Wire Notes Line
+	3800 3300 4100 3300
+Wire Notes Line
+	3800 3900 4100 3900
+Text Notes 3700 3775 0    50   ~ 0
+ 24V DC 2A\n\nPower supply\n\n  230V AC\n
+Text Notes 3475 3375 0    50   ~ 0
+U1
 $EndSCHEMATC
