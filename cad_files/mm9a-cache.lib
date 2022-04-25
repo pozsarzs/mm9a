@@ -6,11 +6,11 @@ EESchema-LIBRARY Version 2.3
 DEF D_Bridge_+-AA D 0 50 Y Y 1 F N
 F0 "D" 50 275 50 H V L CNN
 F1 "D_Bridge_+-AA" 50 200 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- D?Bridge*
- D?Rectifier*
+ Diode?Bridge*
+ Diode?Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -34,12 +34,8 @@ ENDDEF
 DEF Electromagnetic_Actor L 0 1 N N 1 F N
 F0 "L" 50 150 50 H V L CNN
 F1 "Electromagnetic_Actor" 50 -50 50 H V L CNN
-F2 "" -25 100 50 V I C CNN
-F3 "" -25 100 50 V I C CNN
-$FPLIST
- Inductor_*
- L_*
-$ENDFPLIST
+F2 "" -25 100 50 V V C CNN
+F3 "" -25 100 50 V V C CNN
 DRAW
 S -100 100 100 0 0 1 10 N
 P 2 0 1 10 -50 100 50 0 N
