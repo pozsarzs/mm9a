@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:/Git/mm9a/cad_files/mm9a.sch</source>
-    <date>2022.04.13. 20:18:43</date>
-    <tool>Eeschema 4.0.7</tool>
+    <source>/home/pozsarzs/Git/W_mm9a/cad_files/mm9a.sch</source>
+    <date>2022. máj. 12., csütörtök, 21:52:10 CEST</date>
+    <tool>Eeschema 4.0.5+dfsg1-4+deb9u1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MM9A Irrigation controller for MM8D</title>
@@ -100,7 +100,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61DE8275</tstamp>
     </comp>
-    <comp ref="P9">
+    <comp ref="P16">
       <value>screw_conn</value>
       <fields>
         <field name="Color">gray</field>
@@ -109,7 +109,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61DF8ED3</tstamp>
     </comp>
-    <comp ref="P16">
+    <comp ref="P20">
       <value>screw_conn</value>
       <fields>
         <field name="Color">blue</field>
@@ -118,7 +118,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61DF9912</tstamp>
     </comp>
-    <comp ref="P17">
+    <comp ref="P21">
       <value>screw_conn</value>
       <fields>
         <field name="Color">green/yellow</field>
@@ -126,12 +126,6 @@
       <libsource lib="pzs_others" part="screw_conn"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61DF9A0D</tstamp>
-    </comp>
-    <comp ref="PS2">
-      <value>pmax</value>
-      <libsource lib="pzs_others" part="auxcontalt"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61E3350E</tstamp>
     </comp>
     <comp ref="K5">
       <value>RM84-2012-35-1024</value>
@@ -145,37 +139,31 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61E338BD</tstamp>
     </comp>
-    <comp ref="PS1">
-      <value>pmin</value>
-      <libsource lib="pzs_others" part="auxcontalt"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61E350C5</tstamp>
-    </comp>
-    <comp ref="K6">
+    <comp ref="K7">
       <value>RM84-2012-35-1024</value>
       <libsource lib="device" part="Electromagnetic_Actor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61E350CB</tstamp>
     </comp>
-    <comp ref="K6C1">
+    <comp ref="K7C1">
       <value>auxcontalt</value>
       <libsource lib="pzs_others" part="auxcontalt"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61E350D3</tstamp>
     </comp>
-    <comp ref="K7">
-      <value>ERV-03D</value>
+    <comp ref="K6">
+      <value>timer 5s</value>
       <libsource lib="device" part="Electromagnetic_Actor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61E37562</tstamp>
     </comp>
-    <comp ref="K7C1">
+    <comp ref="K6C1">
       <value>auxcontalt</value>
       <libsource lib="pzs_others" part="auxcontalt"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61E37BED</tstamp>
     </comp>
-    <comp ref="K6C2">
+    <comp ref="K7C2">
       <value>auxcontalt</value>
       <libsource lib="pzs_others" part="auxcontalt"/>
       <sheetpath names="/" tstamps="/"/>
@@ -241,7 +229,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61FAE96E</tstamp>
     </comp>
-    <comp ref="P10">
+    <comp ref="P17">
       <value>screw_conn</value>
       <fields>
         <field name="Color">gray</field>
@@ -250,7 +238,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61FAEF06</tstamp>
     </comp>
-    <comp ref="P11">
+    <comp ref="P18">
       <value>screw_conn</value>
       <fields>
         <field name="Color">gray</field>
@@ -259,7 +247,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61FAEFBC</tstamp>
     </comp>
-    <comp ref="P12">
+    <comp ref="P13">
       <value>screw_conn</value>
       <fields>
         <field name="Color">gray</field>
@@ -268,7 +256,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61FAF07B</tstamp>
     </comp>
-    <comp ref="P13">
+    <comp ref="P12">
       <value>screw_conn</value>
       <fields>
         <field name="Color">gray</field>
@@ -286,7 +274,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61FAF296</tstamp>
     </comp>
-    <comp ref="P15">
+    <comp ref="P19">
       <value>screw_conn</value>
       <fields>
         <field name="Color">gray</field>
@@ -295,7 +283,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61FAF604</tstamp>
     </comp>
-    <comp ref="P8">
+    <comp ref="P15">
       <value>screw_conn</value>
       <fields>
         <field name="Color">blue</field>
@@ -305,7 +293,7 @@
       <tstamp>61FAFA88</tstamp>
     </comp>
     <comp ref="F1">
-      <value>0.3A T</value>
+      <value>0.4A T</value>
       <libsource lib="pzs_others" part="fuse"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>624B081E</tstamp>
@@ -316,8 +304,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62570500</tstamp>
     </comp>
-    <comp ref="D1">
-      <value>100V 3A</value>
+    <comp ref="D1-4">
+      <value>4x1N5408</value>
       <libsource lib="device" part="D_Bridge_+-AA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>625720ED</tstamp>
@@ -328,13 +316,49 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62582F3D</tstamp>
     </comp>
+    <comp ref="P10">
+      <value>screw_conn</value>
+      <fields>
+        <field name="Color">gray</field>
+      </fields>
+      <libsource lib="pzs_others" part="screw_conn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626445CD</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>screw_conn</value>
+      <fields>
+        <field name="Color">gray</field>
+      </fields>
+      <libsource lib="pzs_others" part="screw_conn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626445D4</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>screw_conn</value>
+      <fields>
+        <field name="Color">gray</field>
+      </fields>
+      <libsource lib="pzs_others" part="screw_conn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626446D3</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>screw_conn</value>
+      <fields>
+        <field name="Color">gray</field>
+      </fields>
+      <libsource lib="pzs_others" part="screw_conn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626446DA</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="device" part="D_Bridge_+-AA">
       <description>Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)</description>
       <footprints>
-        <fp>D?Bridge*</fp>
-        <fp>D?Rectifier*</fp>
+        <fp>Diode?Bridge*</fp>
+        <fp>Diode?Rectifier*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
@@ -349,10 +373,6 @@
     </libpart>
     <libpart lib="device" part="Electromagnetic_Actor">
       <description>electro-magnetic actor</description>
-      <footprints>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
       <fields>
         <field name="Reference">L</field>
         <field name="Value">Electromagnetic_Actor</field>
@@ -402,154 +422,150 @@
   </libparts>
   <libraries>
     <library logical="device">
-      <uri>C:\Applications\KiCadPortable-4.0.7\App\KiCad\share\kicad\library\device.lib</uri>
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="pzs_others">
-      <uri>D:\Git\mm9a\cad_files\pzs_others.lib</uri>
+      <uri>/home/pozsarzs/Git/W_mm9a/cad_files/pzs_others.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(P1-Pad1)">
-      <node ref="P17" pin="1"/>
-      <node ref="P1" pin="1"/>
-    </net>
-    <net code="2" name="Net-(K4C1-Pad~)">
+    <net code="1" name="Net-(K4C1-Pad~)">
       <node ref="P3" pin="1"/>
     </net>
-    <net code="3" name="Net-(K5-Pad2)">
-      <node ref="K5" pin="2"/>
+    <net code="2" name="Net-(K1C2-Pad~)">
+      <node ref="P16" pin="1"/>
     </net>
-    <net code="4" name="Net-(K4C1-Pad~)">
-      <node ref="P15" pin="1"/>
+    <net code="3" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="Trs1" pin="~"/>
+    </net>
+    <net code="4" name="Net-(D1-4-Pad4)">
+      <node ref="Trs1" pin="~"/>
+      <node ref="D1-4" pin="4"/>
+    </net>
+    <net code="5" name="Net-(K4C1-Pad~)">
       <node ref="K4C1" pin="~"/>
-    </net>
-    <net code="5" name="Net-(K2-Pad2)">
-      <node ref="P6" pin="1"/>
-      <node ref="K2" pin="2"/>
+      <node ref="P19" pin="1"/>
     </net>
     <net code="6" name="Net-(K1-Pad2)">
       <node ref="P5" pin="1"/>
       <node ref="K1" pin="2"/>
     </net>
-    <net code="7" name="Net-(K3-Pad2)">
-      <node ref="K3" pin="2"/>
+    <net code="7" name="Net-(K2-Pad2)">
+      <node ref="P6" pin="1"/>
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(K3-Pad2)">
       <node ref="P7" pin="1"/>
+      <node ref="K3" pin="2"/>
     </net>
-    <net code="8" name="Net-(K6C2-Pad~)">
-      <node ref="P13" pin="1"/>
+    <net code="9" name="Net-(D1-4-Pad3)">
+      <node ref="F2" pin="1"/>
+      <node ref="D1-4" pin="3"/>
     </net>
-    <net code="10" name="Net-(K4-Pad2)">
-      <node ref="K4" pin="2"/>
+    <net code="10" name="Net-(P1-Pad1)">
+      <node ref="P21" pin="1"/>
+      <node ref="P1" pin="1"/>
     </net>
-    <net code="11" name="Net-(K5C1-Pad~)">
-      <node ref="K7" pin="1"/>
-      <node ref="K6C1" pin="~"/>
-      <node ref="K7C1" pin="~"/>
-    </net>
-    <net code="12" name="Net-(K5C2-Pad~)">
-      <node ref="K6C2" pin="~"/>
-      <node ref="P14" pin="1"/>
-    </net>
-    <net code="13" name="Net-(K5C2-Pad~)">
-      <node ref="P12" pin="1"/>
-      <node ref="K5C2" pin="~"/>
-    </net>
-    <net code="14" name="Net-(F1-Pad2)">
+    <net code="11" name="Net-(F1-Pad2)">
       <node ref="F1" pin="2"/>
       <node ref="P2" pin="1"/>
     </net>
-    <net code="15" name="Net-(K4C2-Pad~)">
-      <node ref="P16" pin="1"/>
+    <net code="12" name="Net-(K5-Pad2)">
+      <node ref="K5" pin="2"/>
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="13" name="Net-(K4C2-Pad~)">
       <node ref="K4C2" pin="~"/>
     </net>
-    <net code="16" name="Net-(K4C2-Pad~)">
+    <net code="14" name="Net-(K4C2-Pad~)">
+      <node ref="P20" pin="1"/>
       <node ref="K4C2" pin="~"/>
     </net>
-    <net code="17" name="Net-(F1-Pad1)">
+    <net code="15" name="Net-(F1-Pad1)">
       <node ref="F1" pin="1"/>
       <node ref="Trs1" pin="~"/>
     </net>
-    <net code="18" name="Net-(F2-Pad2)">
-      <node ref="Trs1" pin="~"/>
-      <node ref="F2" pin="2"/>
-    </net>
-    <net code="19" name="Net-(D1-Pad4)">
-      <node ref="Trs1" pin="~"/>
-      <node ref="D1" pin="4"/>
-    </net>
-    <net code="20" name="Net-(D1-Pad3)">
-      <node ref="D1" pin="3"/>
-      <node ref="F2" pin="1"/>
-    </net>
-    <net code="21" name="/-24V">
-      <node ref="K5" pin="1"/>
+    <net code="16" name="Net-(K5C1-Pad~)">
       <node ref="K6" pin="1"/>
-      <node ref="K7" pin="2"/>
-      <node ref="K4" pin="1"/>
-      <node ref="K3" pin="1"/>
-      <node ref="K1" pin="1"/>
-      <node ref="K2" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="P8" pin="1"/>
-    </net>
-    <net code="22" name="Net-(K6-Pad2)">
-      <node ref="K7C1" pin="~"/>
-      <node ref="K6" pin="2"/>
-      <node ref="PS1" pin="~"/>
-    </net>
-    <net code="24" name="Net-(K4C1-Pad~)">
-      <node ref="K4C1" pin="~"/>
-    </net>
-    <net code="27" name="Net-(PS2-Pad~)">
-      <node ref="PS2" pin="~"/>
-    </net>
-    <net code="29" name="Net-(K5C1-Pad~)">
-      <node ref="K5C1" pin="~"/>
-    </net>
-    <net code="30" name="Net-(PS1-Pad~)">
-      <node ref="PS1" pin="~"/>
-    </net>
-    <net code="31" name="Net-(K6C1-Pad~)">
-      <node ref="K6C1" pin="~"/>
-    </net>
-    <net code="32" name="/+24V">
-      <node ref="P4" pin="1"/>
-      <node ref="K3C1" pin="~"/>
-      <node ref="K3C2" pin="~"/>
-      <node ref="K2C1" pin="~"/>
-      <node ref="D1" pin="1"/>
-      <node ref="K1C1" pin="~"/>
-    </net>
-    <net code="33" name="Net-(K2C2-Pad~)">
-      <node ref="K2C2" pin="~"/>
-    </net>
-    <net code="34" name="Net-(K1C1-Pad~)">
-      <node ref="K2C1" pin="~"/>
-      <node ref="PS2" pin="~"/>
-      <node ref="K5C1" pin="~"/>
-      <node ref="K1C1" pin="~"/>
-      <node ref="K3C1" pin="~"/>
-    </net>
-    <net code="35" name="Net-(K1C2-Pad~)">
-      <node ref="K1C2" pin="~"/>
       <node ref="P9" pin="1"/>
     </net>
-    <net code="36" name="Net-(K1C2-Pad~)">
+    <net code="17" name="Net-(K6C1-Pad~)">
+      <node ref="K6C1" pin="~"/>
+      <node ref="K7" pin="2"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="18" name="Net-(K6C1-Pad~)">
+      <node ref="K6C1" pin="~"/>
+    </net>
+    <net code="19" name="Net-(K4-Pad2)">
+      <node ref="K4" pin="2"/>
+      <node ref="K7C1" pin="~"/>
+    </net>
+    <net code="20" name="Net-(K5C2-Pad~)">
+      <node ref="P14" pin="1"/>
+    </net>
+    <net code="21" name="Net-(K5C2-Pad~)">
+      <node ref="P13" pin="1"/>
+      <node ref="K5C2" pin="~"/>
+    </net>
+    <net code="22" name="Net-(K7C2-Pad~)">
+      <node ref="P12" pin="1"/>
+      <node ref="K7C2" pin="~"/>
+    </net>
+    <net code="25" name="Net-(K4C1-Pad~)">
+      <node ref="K4C1" pin="~"/>
+    </net>
+    <net code="28" name="Net-(K5C1-Pad~)">
+      <node ref="K5C1" pin="~"/>
+    </net>
+    <net code="30" name="Net-(K7C1-Pad~)">
+      <node ref="K7C1" pin="~"/>
+    </net>
+    <net code="31" name="Net-(K7C2-Pad~)">
+      <node ref="K7C2" pin="~"/>
+    </net>
+    <net code="32" name="Net-(K1C2-Pad~)">
       <node ref="K1C2" pin="~"/>
     </net>
-    <net code="37" name="Net-(K3C2-Pad~)">
-      <node ref="P11" pin="1"/>
+    <net code="33" name="Net-(K1C1-Pad~)">
+      <node ref="K3C1" pin="~"/>
+      <node ref="K2C1" pin="~"/>
+      <node ref="P10" pin="1"/>
+      <node ref="K1C1" pin="~"/>
+      <node ref="K5C1" pin="~"/>
+    </net>
+    <net code="34" name="Net-(D1-4-Pad2)">
+      <node ref="P15" pin="1"/>
+      <node ref="D1-4" pin="2"/>
+      <node ref="K5" pin="1"/>
+      <node ref="K6" pin="2"/>
+      <node ref="K7" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="K2" pin="1"/>
+      <node ref="K4" pin="1"/>
+      <node ref="K3" pin="1"/>
+    </net>
+    <net code="35" name="/+24V">
+      <node ref="P4" pin="1"/>
+      <node ref="D1-4" pin="1"/>
+      <node ref="K2C1" pin="~"/>
+      <node ref="K2C2" pin="~"/>
+      <node ref="K1C1" pin="~"/>
+      <node ref="K1C2" pin="~"/>
+      <node ref="K3C1" pin="~"/>
       <node ref="K3C2" pin="~"/>
     </net>
-    <net code="38" name="Net-(K2C2-Pad~)">
-      <node ref="P10" pin="1"/>
-      <node ref="K2C2" pin="~"/>
-    </net>
-    <net code="39" name="Net-(K6C2-Pad~)">
-      <node ref="K6C2" pin="~"/>
-    </net>
-    <net code="40" name="Net-(K5C2-Pad~)">
+    <net code="36" name="Net-(K5C2-Pad~)">
       <node ref="K5C2" pin="~"/>
+    </net>
+    <net code="37" name="Net-(K3C2-Pad~)">
+      <node ref="K3C2" pin="~"/>
+      <node ref="P18" pin="1"/>
+    </net>
+    <net code="38" name="Net-(K2C2-Pad~)">
+      <node ref="K2C2" pin="~"/>
+      <node ref="P17" pin="1"/>
     </net>
   </nets>
 </export>

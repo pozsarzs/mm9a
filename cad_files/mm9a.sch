@@ -198,7 +198,7 @@ F 3 "" H 3800 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Notes 9200 5740 0    50   ~ 0
-L
+WPO-L
 $Comp
 L screw_conn P16
 U 1 1 61DF8ED3
@@ -212,9 +212,9 @@ F 4 "gray" H 8900 2200 60  0001 C CNN "Color"
 	1    0    0    -1  
 $EndComp
 Text Notes 9200 2040 0    50   ~ 0
-common
+GND
 Text Notes 9200 2240 0    50   ~ 0
-#1
+VO1
 $Comp
 L screw_conn P20
 U 1 1 61DF9912
@@ -228,7 +228,7 @@ F 4 "blue" H 8900 5700 60  0001 C CNN "Color"
 	1    0    0    -1  
 $EndComp
 Text Notes 9200 5540 0    50   ~ 0
-N
+WPO-N
 $Comp
 L screw_conn P21
 U 1 1 61DF9A0D
@@ -242,7 +242,7 @@ F 4 "green/yellow" H 8900 5900 60  0001 C CNN "Color"
 	1    0    0    -1  
 $EndComp
 Text Notes 9200 5950 0    50   ~ 0
-PE
+WPO-PE
 $Comp
 L Electromagnetic_Actor K5
 U 1 1 61E3356A
@@ -292,7 +292,7 @@ L Electromagnetic_Actor K6
 U 1 1 61E37562
 P 5200 4800
 F 0 "K6" H 5050 5000 50  0000 L CNN
-F 1 "ERV-03D" H 5050 4500 50  0000 L CNN
+F 1 "timer 5s" H 5050 4500 50  0000 L CNN
 F 2 "" V 5175 4900 50  0000 C CNN
 F 3 "" V 5175 4900 50  0000 C CNN
 	1    5200 4800
@@ -334,11 +334,11 @@ $EndComp
 NoConn ~ 5500 3750
 NoConn ~ 6350 4900
 Text Notes 9200 4140 0    50   ~ 0
-<Pmin
+E-PMN
 Text Notes 9200 3940 0    50   ~ 0
->Pmax
+E-PMX
 Text Notes 2350 1380 2    50   ~ 0
-#1
+CI1
 $Comp
 L screw_conn P1
 U 1 1 61E50A91
@@ -375,8 +375,8 @@ F 4 "gray" H 2650 5500 60  0001 C CNN "Color"
 	1    2650 5500
 	-1   0    0    1   
 $EndComp
-Text Notes 2475 1175 2    50   ~ 0
-common   
+Text Notes 2350 1175 2    50   ~ 0
++24V
 Text Notes 2350 5530 2    50   ~ 0
 N
 Text Notes 2350 5730 2    50   ~ 0
@@ -386,9 +386,9 @@ PE
 Text Notes 2175 5825 2    50   ~ 0
 Main voltage input\n\n  230 V AC     
 Text Notes 2350 1575 2    50   ~ 0
-#2
+CI2
 Text Notes 2350 1775 2    50   ~ 0
-#3
+CI3
 $Comp
 L screw_conn P6
 U 1 1 61FAE763
@@ -514,7 +514,7 @@ L fuse F1
 U 1 1 624B081E
 P 4200 5050
 F 0 "F1" V 4300 5050 50  0000 C CNN
-F 1 "0.3A T" V 4100 5050 50  0000 C CNN
+F 1 "0.4A T" V 4100 5050 50  0000 C CNN
 F 2 "" V 4130 5050 50  0001 C CNN
 F 3 "" H 4200 5050 50  0001 C CNN
 	1    4200 5050
@@ -523,11 +523,11 @@ $EndComp
 NoConn ~ 6650 4900
 NoConn ~ 5800 3750
 Text Notes 9200 4325 0    50   ~ 0
-common
+E-COM
 Text Notes 9200 2425 0    50   ~ 0
-#2
+VO2
 Text Notes 9200 2625 0    50   ~ 0
-#3
+VO3
 $Comp
 L transformer_1P_1S Trs1
 U 1 1 62570500
@@ -856,20 +856,16 @@ Wire Wire Line
 NoConn ~ 6000 6150
 Text Label 4000 2550 1    60   ~ 0
 +24V
-Text Label 4800 3250 1    60   ~ 0
--24V
 Wire Wire Line
 	4200 4750 4200 4900
 Wire Wire Line
 	4200 5200 4200 5700
-Text Notes 9375 5825 0    50   ~ 0
+Text Notes 9550 5825 0    50   ~ 0
 Water pump output\n\n      230V AC
-Text Notes 2100 1650 2    50   ~ 0
-Control input\n\n    24V DC  
-Text Notes 9875 2500 2    50   ~ 0
-Valve output\n\n    24V DC  
-Text Notes 10075 4150 2    50   ~ 0
-Error output
+Text Notes 9625 2475 0    50   ~ 0
+Valve outputs\n\n   24V DC  
+Text Notes 10145 4140 2    50   ~ 0
+Error outputs
 $Comp
 L screw_conn P10
 U 1 1 626445CD
@@ -929,7 +925,7 @@ Wire Wire Line
 	8450 3200 8450 3100
 Wire Wire Line
 	8450 3100 8750 3100
-Text Notes 9200 3075 0    50   ~ 0
+Text Notes 9625 3050 0    50   ~ 0
    >Pmax\npressure sensor\n
 Wire Wire Line
 	5200 3450 5200 3200
@@ -952,6 +948,16 @@ Connection ~ 6300 1300
 Connection ~ 6000 2500
 Connection ~ 6000 1900
 Connection ~ 6000 1300
-Text Notes 9175 3575 0    50   ~ 0
+Text Notes 9625 3550 0    50   ~ 0
    <Pmin\npressure sensor\n
+Text Notes 2075 1475 2    50   ~ 0
+Control inputs\n
+Text Notes 9200 2925 0    50   ~ 0
+S-PMX
+Text Notes 9200 3125 0    50   ~ 0
+S-PMX
+Text Notes 9175 3425 0    50   ~ 0
+S-PMN
+Text Notes 9175 3625 0    50   ~ 0
+S-PMN
 $EndSCHEMATC

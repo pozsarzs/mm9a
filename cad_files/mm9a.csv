@@ -1,6 +1,6 @@
-Source,D:/Git/mm9a/cad_files/mm9a.sch
-Kicad Rev,Eeschema 4.0.7
-Generated Date,2022.04.13. 20:18:43
+Source,/home/pozsarzs/Git/W_mm9a/cad_files/mm9a.sch
+Kicad Rev,Eeschema 4.0.5+dfsg1-4+deb9u1
+Generated Date,2022. máj. 12., csütörtök, 21:52:10 CEST
 
 Title,MM9A Irrigation controller for MM8D
 Company,Pozsar Zsolt
@@ -22,18 +22,16 @@ K3C1,auxcontalt,pzs_others,auxcontalt
 K3C2,auxcontalt,pzs_others,auxcontalt
 P5,screw_conn,gray,pzs_others,screw_conn
 F2,2A,pzs_others,fuse
-P9,screw_conn,gray,pzs_others,screw_conn
-P16,screw_conn,blue,pzs_others,screw_conn
-P17,screw_conn,green/yellow,pzs_others,screw_conn
-PS2,pmax,pzs_others,auxcontalt
+P16,screw_conn,gray,pzs_others,screw_conn
+P20,screw_conn,blue,pzs_others,screw_conn
+P21,screw_conn,green/yellow,pzs_others,screw_conn
 K5,RM84-2012-35-1024,device,Electromagnetic_Actor
 K5C1,auxcontalt,pzs_others,auxcontalt
-PS1,pmin,pzs_others,auxcontalt
-K6,RM84-2012-35-1024,device,Electromagnetic_Actor
-K6C1,auxcontalt,pzs_others,auxcontalt
-K7,ERV-03D,device,Electromagnetic_Actor
+K7,RM84-2012-35-1024,device,Electromagnetic_Actor
 K7C1,auxcontalt,pzs_others,auxcontalt
-K6C2,auxcontalt,pzs_others,auxcontalt
+K6,timer 5s,device,Electromagnetic_Actor
+K6C1,auxcontalt,pzs_others,auxcontalt
+K7C2,auxcontalt,pzs_others,auxcontalt
 K5C2,auxcontalt,pzs_others,auxcontalt
 P1,screw_conn,green/yellow,pzs_others,screw_conn
 P2,screw_conn,blue,pzs_others,screw_conn
@@ -41,14 +39,18 @@ P3,screw_conn,gray,pzs_others,screw_conn
 P6,screw_conn,gray,pzs_others,screw_conn
 P7,screw_conn,gray,pzs_others,screw_conn
 P4,screw_conn,gray,pzs_others,screw_conn
+P17,screw_conn,gray,pzs_others,screw_conn
+P18,screw_conn,gray,pzs_others,screw_conn
+P13,screw_conn,gray,pzs_others,screw_conn
+P12,screw_conn,gray,pzs_others,screw_conn
+P14,screw_conn,gray,pzs_others,screw_conn
+P19,screw_conn,gray,pzs_others,screw_conn
+P15,screw_conn,blue,pzs_others,screw_conn
+F1,0.4A T,pzs_others,fuse
+Trs1,230/24V 50VA,pzs_others,transformer_1P_1S
+D1-4,4x1N5408,device,D_Bridge_+-AA
+K4C2,auxcontalt,pzs_others,auxcontalt
 P10,screw_conn,gray,pzs_others,screw_conn
 P11,screw_conn,gray,pzs_others,screw_conn
-P12,screw_conn,gray,pzs_others,screw_conn
-P13,screw_conn,gray,pzs_others,screw_conn
-P14,screw_conn,gray,pzs_others,screw_conn
-P15,screw_conn,gray,pzs_others,screw_conn
-P8,screw_conn,blue,pzs_others,screw_conn
-F1,0.3A T,pzs_others,fuse
-Trs1,230/24V 50VA,pzs_others,transformer_1P_1S
-D1,100V 3A,device,D_Bridge_+-AA
-K4C2,auxcontalt,pzs_others,auxcontalt
+P9,screw_conn,gray,pzs_others,screw_conn
+P8,screw_conn,gray,pzs_others,screw_conn
